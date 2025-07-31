@@ -1,0 +1,61 @@
+*{
+    font-family: 'Calibri';
+}
+
+body{
+    background-color: #44C3E5;   
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: white;
+}
+
+#main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin: 10px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #44C4E8;
+    text-transform: capitalize;
+}
+
+input{
+    width: 300px;
+    border: 2px solid #DBDBDB;
+    margin: 10px;
+    padding-left: 10px;
+    height: 40px;
+    box-sizing: border-box;
+    color: #bebebe;
+}
+
+::placeholder{
+    font-size: 16px;
+}
+
+button{
+    width: 300px;
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #44C4E8;
+    border: none;
+    height: 40px;
+}
